@@ -50,7 +50,7 @@ Each course component is worth a specific number of points. The percentage of to
 
 | Component                         | Points | Percent |
 |-----------------------------------|--------|---------|
-| Active Course Engagement          | 50     | 5%      |
+| Course Engagement                 | 50     | 5%      |
 | zyBooks Textbook Exercises & Labs | 150    | 15%     |
 | Problem Sets (x10 approx.)        | 300    | 30%     |
 | Exams (x3)                        | 375    | 37.5%   |
@@ -74,11 +74,11 @@ Each course component is worth a specific number of points. The percentage of to
 
 ---
 
-## Active Course Engagement (5%)
+## Course Engagement (5%)
 
 Active Course Engagement is vital for success in this course. Weekly readings and textbook exercises present the course material and provide the background needed to complete problem sets and prepare for exams. Students are encouraged to take notes summarizing topics covered in class and while working through, zyBooks exercises and labs. Students are encouraged to utilize office hours and send questions via email and text.
 
-**Active Course Engagement grades** are recorded after each exam: 13 points after Exam #1, 13 points after Exam #2, 13 points after Exam #3, and 11 points after Final Exam. Scores are based on attendance, in-class work, weekly assignments, timely completion of zyBooks exercises and labs, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Active Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
+**Course Engagement grades** are recorded after each exam: 13 points after Exam #1, 13 points after Exam #2, 13 points after Exam #3, and 11 points after Final Exam. Scores are based on attendance, in-class work, weekly assignments, timely completion of zyBooks exercises and labs, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
 
 ### Attendance
 
@@ -110,7 +110,7 @@ Textbook participation, challenge exercises, and labs will be assigned for each 
 
 Many chapters and sections are listed as "optional" and thus not required or counted towards the textbook grade. Students are encouraged to explore these optional topics to further develop their skills and knowledge.
 
-Timely completion of zyBooks work will inform our Active Particiption grade. Students are encouraged to complete zyBooks material on a weekly bases. It is critical to complete the related material for each Problem set.
+Timely completion of zyBooks work will inform the Course Engagement grade. Students are encouraged to complete zyBooks material on a weekly bases. It is critical to complete the related material for each Problem set.
 
 
 ---
