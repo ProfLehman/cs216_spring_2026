@@ -49,8 +49,8 @@ Each course component is worth a specific number of points. The percentage of to
 | Component                         | Points | Percent |
 |-----------------------------------|--------|---------|
 | Course Engagement                 | 50     | 5%      |
-| zyBooks Textbook Exercises & Labs | 150    | 15%     |
-| Problem Sets (x10 approx.)        | 300    | 30%     |
+| zyBooks Textbook Exercises & Labs | 200    | 20%     |
+| Problem Sets (x11)                | 250    | 25%     |
 | Exams (x3)                        | 375    | 37.5%   |
 | Final Exam                        | 125    | 12.5%   |
 | **Total**                         | **1000** | **100%** |
@@ -96,13 +96,13 @@ Virtual class sessions may be scheduled occasionally when the instructor has a c
 
 ---
 
-## Problem Sets (30%)
+## Problem Sets (25%)
 
 Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the concepts discussed in the text, online resources, and class sessions. The material covered will assist students in preparing for course examinations. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted. Most coding assignments will be submitted through zyBooks.
 
 ---
 
-## zyBooks Textbook (15%)
+## zyBooks Textbook (25%)
 
 Textbook participation, challenge exercises, and labs will be assigned for each chapter. Grades will be based on the percentage completed. Suggested due dates for each chapter are given for completing each chapter, however, **scores are only entered after each exam**.  
 
@@ -206,6 +206,6 @@ Exams provide an opportunity to demonstrate your understanding of Python coding 
 
 ---
 
-*Last modified: Thursday, January 8, 2026*
+*Last modified: Thursday, January 9, 2026*
 
 ---
