@@ -1,6 +1,4 @@
 
-***--- Draft Copy ---***
-
 # CS 216 Software Development
 **Spring 2026**
 
@@ -12,7 +10,7 @@
 
 See contact information on Moodle.
 
-> **Privacy Note:**  
+> *Note:*
 > Instructor contact information is not listed in this public syllabus to reduce spam and protect privacy.  
 > All enrolled students can find current contact details and office hours on Moodle.
 
@@ -179,19 +177,35 @@ Faculty will work with ACE to support eligible students.
 
 Exams provide an opportunity to demonstrate your understanding of Python coding and programming concepts. This course has three exams and a final exam. The final exam is comprehensive. Exams are **closed notes**. Review topics and sample questions are provided.
 
-- **Exam #1: TBA**   
-- **Exam #2: TBA**   
-- **Exam #3: TBA**   
-- **Final Exam: TBA**
+- **Exam #1: Monday, February 2**
+- **Exam #2: Friday, February 27**   
+- **Exam #3: Wednesday, April 1**   
+- **Final Exam: Wednesday, April 29 - 8:00 am**
 
 > The schedule may change slightly. Check the course website for updates.
 
 ### Weekly Schedule - TBA
-
-| Week | M     | W     | F     | Concept Topics                                   | Python Topics                        |
-|------|-------|-------|-------|--------------------------------------------------|-------------------------------------|
+| Week | M      | W      | F      | Topic            | Chapters |
+|------|--------|--------|--------|------------------|----------|
+| 1    | 1/12   | 1/14   | 1/16   | Basics           | 1, 2     |
+| 2    | **MLK**   | 1/21   | 1/23   | Branching        | 3, 4     |
+| 3    | 1/26   | 1/28   | 1/30   | Loops            | 5        |
+| 4    | **2/2**    | 2/4    | 2/6    | **Exam #1**, Functions        | 6        |
+| 5    | 2/9    | 2/11   | 2/13   | Strings          | 7        |
+| 6    | 2/16   | 2/18   | 2/20   | Lists            | 8        |
+| 7    | 2/23   | 2/25   | **2/27**   |  **Exam #2**                |          |
+| 8    | **Break**  | **Break** | **Break**    |                  |          |
+| 9    | 3/9    | 3/11   | 3/13   | Dictionaries     | 8        |
+| 10   | 3/16   | 3/18   | 3/20   | Classes          | 9        |
+| 11   | 3/23   | 3/25   | 3/27   | Files            | 12       |
+| 12   | 3/30   | **4/1**    | **Easter**    | **Exam #3**                  |          |
+| 13   | **Easter**    | 4/8    | 4/10   | GUI, Graphics    | 17       |
+| 14   | 4/13   | 4/15   | 4/17   | Libraries, API   | 15       |
+| 15   | 4/20   | 4/22   | 4/24   |                  |          |
+| 16   |        | **4/29**   |        | **Final Exam**   |          |
 
 ---
 
 *Last modified: Thursday, January 8, 2026*
-```
+
+---
