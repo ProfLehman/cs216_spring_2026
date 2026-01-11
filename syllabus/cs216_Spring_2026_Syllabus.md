@@ -34,11 +34,7 @@ Review of introductory topics including variables, input/output, selection, and 
 
 ## Required Textbook
 
-Online text from https://learn.zybooks.com/  
 
-Enter zyBook code **HUNTINGTONCS216LehmanSpring2026**  
-
-**Subscription is $94**, through May 14, 2026. You can save/print content for later use.   
 
 ---
 
