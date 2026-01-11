@@ -35,7 +35,6 @@ Review of introductory topics including variables, input/output, selection, and 
 ## Required Textbook
 
 
-
 ---
 
 ## Grading
@@ -45,7 +44,7 @@ Each course component is worth a specific number of points. The percentage of to
 | Component                         | Points | Percent |
 |-----------------------------------|--------|---------|
 | Course Engagement                 | 50     | 5%      |
-| zyBooks Textbook Exercises & Labs | 200    | 20%     |
+| Textbook Exercises                | 200    | 20%     |
 | Problem Sets (x11)                | 250    | 25%     |
 | Exams (x3)                        | 375    | 37.5%   |
 | Final Exam                        | 125    | 12.5%   |
