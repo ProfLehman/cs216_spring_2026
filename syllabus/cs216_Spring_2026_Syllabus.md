@@ -34,6 +34,8 @@ Review of introductory topics including variables, input/output, selection, and 
 
 ## Required Textbook
 
+[Think Python 3rd Edition](https://allendowney.github.io/ThinkPython/#)
+
 
 ---
 
@@ -97,14 +99,9 @@ Weekly problem sets are assigned throughout the semester. These assignments are 
 
 ---
 
-## zyBooks Textbook (25%)
+## Textbook (25%)
 
-Textbook participation, challenge exercises, and labs will be assigned for each chapter. Grades will be based on the percentage completed. Suggested due dates for each chapter are given for completing each chapter, however, **scores are only entered after each exam**.  
-
-Many chapters and sections are listed as "optional" and thus not required or counted towards the textbook grade. Students are encouraged to explore these optional topics to further develop their skills and knowledge.
-
-Timely completion of zyBooks work will inform the Course Engagement grade. Students are encouraged to complete zyBooks material on a weekly bases. It is critical to complete the related material for each Problem set.
-
+Textbook exercises will be assigned for each chapter.
 
 ---
 
