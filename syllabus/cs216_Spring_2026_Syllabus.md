@@ -96,7 +96,7 @@ Virtual class sessions may be scheduled occasionally when the instructor has a c
 
 ## Problem Sets (30%)
 
-Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the concepts discussed in the text, online resources, and class sessions. The material covered will assist students in preparing for course examinations. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted. Most coding assignments will be hosted on GitHub with links submitted via Moodle.
+Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the concepts discussed in the text, online resources, and class sessions. The material covered will assist students in preparing for course examinations and final project. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted. Most coding assignments will be hosted on GitHub with links submitted via Moodle.
 
 ---
 
@@ -159,7 +159,7 @@ Faculty will work with ACE to support eligible students.
 
 ## Exams (50%)
 
-Exams provide an opportunity to demonstrate your understanding of Python coding and programming concepts. This course has three exams and a final exam. The final exam is comprehensive. Exams are **closed notes**. Review topics and sample questions are provided.
+Exams provide an opportunity to demonstrate your understanding of Python coding and programming concepts. Each exam is equally weighted. The final exam is comprehensive. Review topics and sample questions are provided.
 
 - **Exam #1: Friday, February 6**
 - **Exam #2: Wednesday, March 11**   
