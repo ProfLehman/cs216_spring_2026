@@ -32,12 +32,16 @@ Review of introductory topics including variables, input/output, selection, and 
 
 ---
 
-## Required Textbook
+## Textbook
 
 [Think Python 3rd Edition](https://allendowney.github.io/ThinkPython/#)
 By Allen B. Downey
 
 Textbook is free with print copies for purchase.
+
+Additional Reference and Tutorial websites
+[W3 Schools - Python](https://www.w3schools.com/python/)
+[Geeks for Geeks - Python](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/)
 
 ---
 
@@ -102,7 +106,7 @@ Weekly problem sets are assigned throughout the semester. These assignments are 
 
 ## Project (10%)
 
-Each student will complete a final project that integrates the key concepts covered throughout the course, including strings, functions, classes, files, graphical user interfaces (GUIs), and graphics. The project will involve creating a program that reads data from a file, processes the data, and generates a graphical representation of the results. This project is an opportunity to demonstrate your understanding of these concepts by building a functional and interactive program. You are encouraged to choose a project that interests you, ensuring it incorporates the required elements while reflecting your creativity and problem-solving skills.
+Each student will complete a final project that integrates many of the key concepts covered throughout the course, including strings, regular expressions, functions, classes, files, graphical user interfaces (GUIs), API's, and graphics. This project is an opportunity to demonstrate your understanding of these concepts by building a functional and interactive program. You are encouraged to choose a project that interests you, ensuring it incorporates the required elements while reflecting your creativity and problem-solving skills. Projects will be hosted on GitHub and may be used as part of a professional portfolio to demonstrate your skills to potential employers. Detailed project requirements, milestones, and due dates will be posted on Moodle.
 
 ---
 
