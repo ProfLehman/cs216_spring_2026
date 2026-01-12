@@ -35,7 +35,9 @@ Review of introductory topics including variables, input/output, selection, and 
 ## Required Textbook
 
 [Think Python 3rd Edition](https://allendowney.github.io/ThinkPython/#)
+By Allen B. Downey
 
+Textbook is free with print copies for purchase.
 
 ---
 
@@ -98,6 +100,12 @@ Weekly problem sets are assigned throughout the semester. These assignments are 
 
 ---
 
+## Project (10%)
+
+Each student will complete a final project that integrates the key concepts covered throughout the course, including strings, functions, classes, files, graphical user interfaces (GUIs), and graphics. The project will involve creating a program that reads data from a file, processes the data, and generates a graphical representation of the results. This project is an opportunity to demonstrate your understanding of these concepts by building a functional and interactive program. You are encouraged to choose a project that interests you, ensuring it incorporates the required elements while reflecting your creativity and problem-solving skills.
+
+---
+
 ## Late Work Policy
 
 Students should complete class assignments before the assigned due date and time. Unless otherwise noted, late work is accepted up to 48 hours late with a 10% penalty. Students should notify the instructor for cases of extreme hardship for which it may be possible to arrange alternate due dates. The instructor will post grades on Moodle. Please review the graded work and report any discrepancies. Students are encouraged to save returned assignments to document earned points.
@@ -107,10 +115,9 @@ Students should complete class assignments before the assigned due date and time
 ### Programming Tools
 
 - **Python 3** will be used for coding assignments.
-- **Thonny IDE** (offline editor): <https://thonny.org/>
-- **Visual Studio Code** (offline editor): <https://https://code.visualstudio.com/>
-- **Google Colab** (Python examples): <https://colab.google/>  
-- **GitHub** (hosting code): <https://github.com/>
+- [**Thonny IDE** - local IDE] (https://thonny.org/)
+- [**Visual Studio Code** - local IDE](https://code.visualstudio.com/)
+- [**GitHub** - hosting code, online IDE via code spaces](https://github.com/)
 
 ---
 
@@ -176,7 +183,7 @@ Exams provide an opportunity to demonstrate your understanding of Python coding 
 | 1    | 1/12   | 1/14   | 1/16   | Basics           | 1, 2     |
 | 2    | **MLK**   | 1/21   | 1/23   | Functions, Recursion  | 3, 4     |
 | 3    | 1/26   | 1/28   | 1/30   | Conditionals            | 5, 6        |
-| 4    | **2/2**    | 2/4    | **2/6**    |         | **Exam #1**        |
+| 4    | 2/2    | 2/4    | **2/6**    |         | **Exam #1**        |
 | 5    | 2/9    | 2/11   | 2/13   | Iteration          | 7        |
 | 6    | 2/16   | 2/18   | 2/20   | Strings, Reg. Expressions            | 8 |
 | 7    | 2/23   | 2/25   | 2/27   | Lists                 |    9     |
@@ -192,6 +199,6 @@ Exams provide an opportunity to demonstrate your understanding of Python coding 
 
 ---
 
-*Last modified: Thursday, January 9, 2026*
+*Last modified: Thursday, January 11, 2026*
 
 ---
