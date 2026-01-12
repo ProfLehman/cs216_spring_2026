@@ -173,7 +173,7 @@ Exams provide an opportunity to demonstrate your understanding of Python coding 
 | 1    | 1/12   | 1/14   | 1/16   | Basics           | 1, 2     |
 | 2    | **MLK**   | 1/21   | 1/23   | Functions, Recursion  | 3, 4     |
 | 3    | 1/26   | 1/28   | 1/30   | Conditionals            | 5, 6        |
-| 4    | 2/2    | 2/4    | **2/6**    |         | **Exam #1**        |
+| 4    | 2/2    | 2/4    | **2/6**    | **Exam #1**  |         |
 | 5    | 2/9    | 2/11   | 2/13   | Iteration          | 7        |
 | 6    | 2/16   | 2/18   | 2/20   | Strings, Reg. Expressions            | 8 |
 | 7    | 2/23   | 2/25   | 2/27   | Lists                 |    9     |
