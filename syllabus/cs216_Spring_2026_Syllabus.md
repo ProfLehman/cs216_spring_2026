@@ -118,6 +118,7 @@ Students should complete class assignments before the assigned due date and time
 - [**Thonny IDE** - local IDE](https://thonny.org/)
 - [**Visual Studio Code** - local IDE](https://code.visualstudio.com/)
 - [**GitHub** - hosting code, online IDE via code spaces](https://github.com/)
+- [**Colab** - online notebook IDE](https://colab.research.google.com/)
 
 ---
 
