@@ -45,11 +45,10 @@ Each course component is worth a specific number of points. The percentage of to
 
 | Component                         | Points | Percent |
 |-----------------------------------|--------|---------|
-| Course Engagement                 | 50     | 5%      |
-| Textbook Exercises                | 200    | 20%     |
-| Problem Sets (x11)                | 250    | 25%     |
-| Exams (x3)                        | 375    | 37.5%   |
-| Final Exam                        | 125    | 12.5%   |
+| Course Engagement                 | 100    | 10%     |
+| Problem Sets (x10)                | 300    | 30%     |
+| Project                           | 100    | 10%     |
+| Exams (#1, #2, #3, Final)         | 500    | 50%     |
 | **Total**                         | **1000** | **100%** |
 
 ### Grading Scale
@@ -69,11 +68,11 @@ Each course component is worth a specific number of points. The percentage of to
 
 ---
 
-## Course Engagement (5%)
+## Course Engagement (10%)
 
-Active Course Engagement is vital for success in this course. Weekly readings and textbook exercises present the course material and provide the background needed to complete problem sets and prepare for exams. Students are encouraged to take notes summarizing topics covered in class and while working through, zyBooks exercises and labs. Students are encouraged to utilize office hours and send questions via email and text.
+Active Course Engagement is vital for success in this course. Weekly readings and textbook exercises present the course material and provide the background needed to complete problem sets and prepare for exams. Students are encouraged to take notes summarizing topics covered in class and while working through textbook exercises. Throughout the semester, students will be asked to complete assigned readings and short exercises as part of the Course Engagement grade. These activities are designed to help students prepare for class and actively engage with course material. These exercises may include brief written responses, short online submissions, or in-class activities. In some cases, students may be asked to demonstrate engagement by answering questions, participating in discussions, or applying concepts during class. Completion and thoughtful participation, rather than perfection, are the primary expectations for these activities. Students are encouraged to ask questions during class sessions, utilize office hours, and send questions via email and text.
 
-**Course Engagement grades** are recorded after each exam: 13 points after Exam #1, 13 points after Exam #2, 13 points after Exam #3, and 11 points after Final Exam. Scores are based on attendance, in-class work, weekly assignments, timely completion of zyBooks exercises and labs, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
+**Course Engagement grades** are recorded after each exam: 25 points after Exam #1, 25 points after Exam #2, 30 points after Exam #3, and 20 points after Final Exam. Scores are based on attendance, in-class work, weekly assignments, textbook exercises, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
 
 ### Attendance
 
@@ -93,15 +92,9 @@ Virtual class sessions may be scheduled occasionally when the instructor has a c
 
 ---
 
-## Problem Sets (25%)
+## Problem Sets (30%)
 
-Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the concepts discussed in the text, online resources, and class sessions. The material covered will assist students in preparing for course examinations. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted. Most coding assignments will be submitted through zyBooks.
-
----
-
-## Textbook (25%)
-
-Textbook exercises will be assigned for each chapter.
+Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the concepts discussed in the text, online resources, and class sessions. The material covered will assist students in preparing for course examinations. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted. Most coding assignments will be hosted on GitHub with links submitted via Moodle.
 
 ---
 
@@ -114,9 +107,10 @@ Students should complete class assignments before the assigned due date and time
 ### Programming Tools
 
 - **Python 3** will be used for coding assignments.
-- **Thonny IDE** (recommended offline editor): <https://thonny.org/>  
+- **Thonny IDE** (offline editor): <https://thonny.org/>
+- **Visual Studio Code** (offline editor): <https://https://code.visualstudio.com/>
 - **Google Colab** (Python examples): <https://colab.google/>  
-- **GitHub** (hosting web pages): <https://github.com/>
+- **GitHub** (hosting code): <https://github.com/>
 
 ---
 
@@ -144,7 +138,7 @@ Students must understand and be able to explain all submitted work. AI tools are
 
 Assignments will include AI usage guidelines:  
 - **Red:** No AI use  
-- **Yellow:** Limited / cautious AI use    
+- **Yellow:** Limited/cautious AI use    
 - **Green:** AI freely allowed  
  
 
@@ -169,9 +163,9 @@ Faculty will work with ACE to support eligible students.
 
 Exams provide an opportunity to demonstrate your understanding of Python coding and programming concepts. This course has three exams and a final exam. The final exam is comprehensive. Exams are **closed notes**. Review topics and sample questions are provided.
 
-- **Exam #1: Monday, February 2**
-- **Exam #2: Friday, February 27**   
-- **Exam #3: Wednesday, April 1**   
+- **Exam #1: Friday, February 6**
+- **Exam #2: Wednesday, March 11**   
+- **Exam #3: Friday, April 10**   
 - **Final Exam: Wednesday, April 29 - 8:00 am**
 
 > The schedule may change slightly. Check the course website for updates.
@@ -180,20 +174,20 @@ Exams provide an opportunity to demonstrate your understanding of Python coding 
 | Week | M      | W      | F      | Topic            | Chapters |
 |------|--------|--------|--------|------------------|----------|
 | 1    | 1/12   | 1/14   | 1/16   | Basics           | 1, 2     |
-| 2    | **MLK**   | 1/21   | 1/23   | Branching        | 3, 4     |
-| 3    | 1/26   | 1/28   | 1/30   | Loops            | 5        |
-| 4    | **2/2**    | 2/4    | 2/6    | **Exam #1**, Functions        | 6        |
-| 5    | 2/9    | 2/11   | 2/13   | Strings          | 7        |
-| 6    | 2/16   | 2/18   | 2/20   | Lists            | 8        |
-| 7    | 2/23   | 2/25   | **2/27**   |  **Exam #2**                |          |
+| 2    | **MLK**   | 1/21   | 1/23   | Functions, Recursion  | 3, 4     |
+| 3    | 1/26   | 1/28   | 1/30   | Conditionals            | 5, 6        |
+| 4    | **2/2**    | 2/4    | **2/6**    |         | **Exam #1**        |
+| 5    | 2/9    | 2/11   | 2/13   | Iteration          | 7        |
+| 6    | 2/16   | 2/18   | 2/20   | Strings, Reg. Expressions            | 8 |
+| 7    | 2/23   | 2/25   | 2/27   | Lists                 |    9     |
 | 8    | **Break**  | **Break** | **Break**    |                  |          |
-| 9    | 3/9    | 3/11   | 3/13   | Dictionaries     | 8        |
-| 10   | 3/16   | 3/18   | 3/20   | Classes          | 9        |
-| 11   | 3/23   | 3/25   | 3/27   | Files            | 12       |
-| 12   | 3/30   | **4/1**    | **Easter**    | **Exam #3**                  |          |
-| 13   | **Easter**    | 4/8    | 4/10   | GUI, Graphics    | 17       |
-| 14   | 4/13   | 4/15   | 4/17   | Libraries, API   | 15       |
-| 15   | 4/20   | 4/22   | 4/24   |                  |          |
+| 9    | 3/9    | **3/11**   | 3/13   | **Exam #2**, Dictionaries, Tuples     | 10, 11        |
+| 10   | 3/16   | 3/18   | 3/20   | Text Analysis          | 12        |
+| 11   | 3/23   | 3/25   | 3/27   | Files            | 13       |
+| 12   | 3/30   | 4/1    | **Easter**    |          |          |
+| 13   | **Easter**    | 4/8    | **4/10**   | **Exam #3**    |        |
+| 14   | 4/13   | 4/15   | 4/17   | Classes   | 14, 15       |
+| 15   | 4/20   | 4/22   | 4/24   |         | 16, 17         |
 | 16   |        | **4/29**   |        | **Final Exam**   |          |
 
 ---
