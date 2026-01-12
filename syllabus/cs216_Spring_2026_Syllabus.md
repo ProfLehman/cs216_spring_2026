@@ -86,9 +86,9 @@ Huntington University policy requires students to attend at least two-thirds (2/
 
 If you arrive late or need to leave early, use the door opposite the instructor (SH 175) workstation and do so quietly. Attending part of a session is better than missing entirely.
 
-Do not attend class if you are sick. Your health and the health of others comes first.
+Do not attend class if you are sick. Your health and the health of others come first.
 
-If you miss class, please get in touch with Prof. Lehman. Students who miss multiple sessions may be referred to Student Services, the Dean’s Office, or the Registrar for support.
+If you miss a class, please contact Prof. Lehman. Students who miss multiple sessions may be referred to Student Services, the Dean’s Office, or the Registrar for support.
 
 Virtual class sessions may be scheduled occasionally when the instructor has a course-related conflict. These sessions are considered regular class meetings, and attendance and participation are required.
 
@@ -115,7 +115,7 @@ Students should complete class assignments before the assigned due date and time
 ### Programming Tools
 
 - **Python 3** will be used for coding assignments.
-- [**Thonny IDE** - local IDE] (https://thonny.org/)
+- [**Thonny IDE** - local IDE](https://thonny.org/)
 - [**Visual Studio Code** - local IDE](https://code.visualstudio.com/)
 - [**GitHub** - hosting code, online IDE via code spaces](https://github.com/)
 
@@ -133,24 +133,14 @@ Plagiarism is using another’s ideas, information, or wording without proper ac
 
 ## AI Statement
 
-This course permits AI tools (e.g., ChatGPT, Google Gemini, Microsoft Copilot, Grammarly) to assist with learning and development.
-
-Students may use AI to:
-- Understand concepts  
-- Receive feedback on writing  
-- Debug code  
-- Generate practice problems  
-
-Students must understand and be able to explain all submitted work. AI tools are **not allowed on exams**.
+This course permits the use of AI tools to assist with learning and code development. AI tools include applications like ChatGPT, Google Gemini, Microsoft Copilot, Grammarly, and others. Students are encouraged to use these tools to understand concepts, receive feedback on writing, debug code, check for plagiarism, generate practice problems, and enhance productivity. While AI can be beneficial, it is not a substitute for mastering the material. Students must fully understand and be able to explain any code or answers they submit. Students must verify the accuracy of all AI-generated code and responses to ensure their reliability. AI solutions must adhere to assignment requirements to be accepted, and some assignments may require citations for AI assistance.
 
 Assignments will include AI usage guidelines:  
 - **Red:** No AI use  
 - **Yellow:** Limited/cautious AI use    
 - **Green:** AI freely allowed  
- 
 
-Improper AI use is considered cheating and/or plagiarism.
-
+**AI tools are not allowed on exams.** Students who use AI in ways that contradict the instructional goals outlined in the course syllabus or rely on AI to complete assignments they are expected to do independently will be in violation of the Huntington University code of conduct. Such actions will be treated as cheating and/or plagiarism. Use these tools wisely and ethically.
 
 ---
 
