@@ -24,9 +24,9 @@ the number of trips that will be needed. The format of the message must be "**Yo
 6. If the number of trips is one or less, display the message "**Only one trip is needed.**"
 
 ### Planning
-- Start by creating and submitting a **Input Processing Output chart** to plan your program.
-- Create and submit **two sample calculations** by hand to test your program.
-- Submit your code for grading. You may submit your program as often as needed to pass
+- Start by creating a **Input Processing Output chart** to plan your program.
+- Create **two sample calculations** by hand to test your program.
+- Submit your code for grading via [Microsoft Forms Link](https://forms.office.com/r/wU8UAfdrMX)  *Note: must be logged into HU account*
 the sample output tests.
 
 -- End of Requirements --
