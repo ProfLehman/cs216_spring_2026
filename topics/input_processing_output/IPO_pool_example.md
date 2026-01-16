@@ -26,6 +26,6 @@ the number of trips that will be needed. The format of the message must be "**Yo
 ### Planning
 - Start by creating and submitting a **Input Processing Output chart** to plan your program.
 - Create **two sample calculations** by hand to test your program.
-- Post your code on GitHub and submit a **link to Prof. Lehman** via link
+- Post your code on GitHub and submit a **link to Prof. Lehman** using form link on Moodle.
 
 -- End of Requirements --
