@@ -10,57 +10,111 @@
 #
 # test_download_speed.py and download_speed.py must be in same location
 #
-
 import subprocess
 import sys
-import math
+from pathlib import Path
 
-def run_test(input_data, expected_speed):
-    """
-    Runs download_speed.py with simulated input and checks output.
-    """
+# download_speed_test_cases.py
+# Spring 2026
+# Prof. Lehman
+# Automated test cases for download_speed.py
+
+TIMEOUT_SECONDS = 2
+STUDENT_FILE = "download_speed.py"   # require students to name their file this
+
+# *** you can add additional test here ***
+#
+#  inp is the input separate by \n
+#
+#     3.5\n2\n30\n  => 3.5, 2, 30
+#
+#  expected is the exact output (spaces matter!)
+#
+
+TESTS = [
+    {
+        "name": "Test 1: first class example",
+        "inp": "3.5\n2\n30\n",
+        "expected": "\n".join([
+            "Enter your file size (MB): ",
+            "Enter minutes: ",
+            "Enter seconds: ",
+            "download speed = 23.89 MB per second",
+        ])
+    },
+    {
+        "name": "Test 2: another test",
+        "inp": "8\n5\n10\n",
+        "expected": "\n".join([
+            "Enter your file size (MB): ",
+            "Enter minutes: ",
+            "Enter seconds: ",
+            "download speed = 26.43 MB per second",
+        ])
+    },
+]
+
+def indent(text: str, spaces: int = 4) -> str:
+    pad = " " * spaces
+    return "\n".join(pad + line for line in text.split("\n"))
+
+def run_student(program_path: Path, input_text: str):
+    """Run student's script with given stdin; return (rc, stdout, stderr)."""
     result = subprocess.run(
-        [sys.executable, "download_speed.py"],
-        input=input_data,
+        [sys.executable, str(program_path)],
+        input=input_text,
         text=True,
-        capture_output=True
+        capture_output=True,
+        timeout=TIMEOUT_SECONDS
     )
+    out = result.stdout.replace("\r\n", "\n").strip()
+    err = result.stderr.replace("\r\n", "\n").strip()
+    return result.returncode, out, err
 
-    output = result.stdout.strip()
+def main():
+    here = Path(__file__).resolve().parent
+    student_path = here / STUDENT_FILE
 
-    try:
-        # Extract the numeric value from the output
-        reported_speed = float(output.split("=")[1].split()[0])
-    except:
-        print("Output format incorrect:", output)
+    if not student_path.exists():
+        print(f"ERROR: Could not find {STUDENT_FILE} in this folder.")
+        print("Fix: Rename your program file to download_speed.py (exactly).")
         return
 
-    if math.isclose(reported_speed, expected_speed, rel_tol=1e-2):
-        print(f"PASS | Input: {input_data.replace(chr(10), ', ')} → {reported_speed}")
-    else:
-        print(f"FAIL | Expected {expected_speed}, got {reported_speed}")
+    print(f"Running {len(TESTS)} tests against: {student_path.name}\n")
 
-# -------------------------
-# Test Cases
-# -------------------------
+    passed = 0
+    for t in TESTS:
+        name = t["name"]
+        try:
+            rc, out, err = run_student(student_path, t["inp"])
+        except subprocess.TimeoutExpired:
+            print(f"[FAIL] {name}: program timed out (possible infinite loop)\n")
+            continue
 
-# note: input is delimited by \n
+        if rc != 0:
+            print(f"[FAIL] {name}: program crashed (exit code {rc})")
+            if err:
+                print("  STDERR:")
+                print(indent(err))
+            print()
+            continue
 
-# Test 1
-# 3.5 MB file, 2 minute (30 sec)
-# total_mb = 3.5 * 1024 = 3,584 mb
-# total_speed = 2 * 60 + 30 = 150 seconds
-# speed = 3,584 / 150 = 23.89 MB per second
-run_test("3.5\n2\n30\n", 23.89)
+        expected = t["expected"]
+        if out == expected:
+            print(f"[PASS] {name}\n")
+            passed += 1
+        else:
+            print(f"[FAIL] {name}: output mismatch")
+            print("  Expected:")
+            print(indent(expected))
+            print("  Got:")
+            print(indent(out))
+            print()
 
+    print(f"Result: {passed}/{len(TESTS)} tests passed.")
 
-# Test 2
-# 4.25 MB file, 3 minutes (45 sec)
-# total_mb = 4.25 * 1024 = 4,352 mb
-# total_seconds = 3 * 60 + 45 = 225 seconds
-# speed = 4,352 / 225 = 19.34 MB per second
-run_test("4.25\n3\n45\n", 19.34)
-
+if __name__ == "__main__":
+    main()
 
 
 
