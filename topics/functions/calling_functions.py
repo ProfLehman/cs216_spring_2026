@@ -1,7 +1,7 @@
 
-# in_class_feb_10.py
+# calling_functions.py
 # prof. lehman
-# spring 2025
+# spring 2025 (updated spring 2026)
 # demonstrates how to call functions
 
 # given the following functions
