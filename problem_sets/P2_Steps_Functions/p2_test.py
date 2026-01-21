@@ -62,7 +62,7 @@ print()
 # -------------------------------------------------
 # Test 4: steps_output_line (under)
 # -------------------------------------------------
-print("Test 4: steps_output_line(-7000)")
+print("Test 4: steps_output_line(7000)")
 expected = "You need 7,000 more steps to reach 10,000"
 actual = p2.steps_output_line(7000)
 
@@ -108,3 +108,8 @@ else:
 print()
 print("=== End of Instructor Tests ===")
 print()
+
+# ---- add your tests here ----
+
+
+
