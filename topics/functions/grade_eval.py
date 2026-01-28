@@ -86,41 +86,41 @@ def detailed_report(a: float,
 # main program
 # --------------------
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     
-    #---------------------
-    # --- INPUT ----------
-    #---------------------
-    attendance = 95
+#---------------------
+# --- INPUT ----------
+#---------------------
+attendance = 95
 
-    exams = 89
+exams = 89
 
-    assignments = 92
+assignments = 92
 
-    major = "CS"        # try: "cs", "nursing", "ota"
+major = "CS"        # try: "cs", "nursing", "ota"
 
-    category = "major"  # "major" or "core"
-
-
-    #---------------------
-    # --- PROCESSING -----
-    #---------------------
-
-    percent = grade_percentage(attendance, exams, assignments)
-
-    grade = letter_grade(percent)
+category = "major"  # "major" or "core"
 
 
-    #--------------------
-    # --- OUTPUT --------
-    #--------------------
+#---------------------
+# --- PROCESSING -----
+#---------------------
 
-    detailed_report(attendance, exams, assignments, percent, grade)
+percent = grade_percentage(attendance, exams, assignments)
 
-    if minimum_grade(grade, category, major) == True:
-        print("The grade meets the minimum requirement.")
-    else:
-        print("The grade does NOT meet the minimum requirement.")
+grade = letter_grade(percent)
+
+
+#--------------------
+# --- OUTPUT --------
+#--------------------
+
+detailed_report(attendance, exams, assignments, percent, grade)
+
+if minimum_grade(grade, category, major) == True:
+    print("The grade meets the minimum requirement.")
+else:
+    print("The grade does NOT meet the minimum requirement.")
 
 
 
