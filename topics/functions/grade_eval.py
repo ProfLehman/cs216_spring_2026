@@ -31,7 +31,19 @@ def letter_grade(percent: float) -> str:
     F: below 60
     """
     # TODO: determine and return "A", "B", "C", "D", or "F"
-    return "?"
+    
+    grade = "?"
+    
+    if percent >= 90.0:
+        grade = "A"
+        
+    if percent >= 80.0 and percent < 90:
+        grade = "B"
+        
+    if percent >= 70.0 and percent < 80.0:
+        grade = "C"
+    
+    return grade
 
 
 def minimum_grade(grade: str, category: str, major: str) -> bool:
@@ -86,41 +98,43 @@ def detailed_report(a: float,
 # main program
 # --------------------
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     
-#---------------------
-# --- INPUT ----------
-#---------------------
-attendance = 95
+    #---------------------
+    # --- INPUT ----------
+    #---------------------
 
-exams = 89
+    print("in main for grade_eval ******")
+    attendance = 95
 
-assignments = 92
+    exams = 89
 
-major = "CS"        # try: "cs", "nursing", "ota"
+    assignments = 92
 
-category = "major"  # "major" or "core"
+    major = "CS"        # try: "cs", "nursing", "ota"
 
-
-#---------------------
-# --- PROCESSING -----
-#---------------------
-
-percent = grade_percentage(attendance, exams, assignments)
-
-grade = letter_grade(percent)
+    category = "major"  # "major" or "core"
 
 
-#--------------------
-# --- OUTPUT --------
-#--------------------
+    #---------------------
+    # --- PROCESSING -----
+    #---------------------
 
-detailed_report(attendance, exams, assignments, percent, grade)
+    percent = grade_percentage(attendance, exams, assignments)
 
-if minimum_grade(grade, category, major) == True:
-    print("The grade meets the minimum requirement.")
-else:
-    print("The grade does NOT meet the minimum requirement.")
+    grade = letter_grade(percent)
+
+
+    #--------------------
+    # --- OUTPUT --------
+    #--------------------
+
+    detailed_report(attendance, exams, assignments, percent, grade)
+
+    if minimum_grade(grade, category, major) == True:
+        print("The grade meets the minimum requirement.")
+    else:
+        print("The grade does NOT meet the minimum requirement.")
 
 
 

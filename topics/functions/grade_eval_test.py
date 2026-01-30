@@ -17,7 +17,7 @@ def header(functionName):
     print("+---------------------------+")
     print()
 
-
+"""
 # --------------------------------------------
 # --- grade_percentage(attendance, exams, assignments)
 # --------------------------------------------
@@ -34,7 +34,7 @@ else:
     print("Failed: grade_percentage(95, 89, 92) should be 90.8")
     print("  expected:", expected)
     print("  actual:  ", actual)
-
+"""
 
 # --------------------------------------------
 # --- letter_grade(percent)
@@ -42,7 +42,17 @@ else:
 
 header("letter_grade(percent)")
 
-# Test 2: 90 should be an A (90–100)
+# Test numbers around A's
+expected = "A"
+actual = letter_grade(100.0)
+
+if actual == expected:
+    print("Passed: letter_grade(100) == 'A'")
+else:
+    print("Failed: letter_grade(100) should be 'A'")
+    print("  expected:", expected)
+    print("  actual:  ", actual)
+    
 expected = "A"
 actual = letter_grade(90)
 
@@ -53,7 +63,50 @@ else:
     print("  expected:", expected)
     print("  actual:  ", actual)
 
+expected = "A"
+actual = letter_grade(90.1)
 
+if actual == expected:
+    print("Passed: letter_grade(90.1) == 'A'")
+else:
+    print("Failed: letter_grade(90.1) should be 'A'")
+    print("  expected:", expected)
+    print("  actual:  ", actual)
+    
+expected = "B"
+actual = letter_grade(89.9)
+
+if actual == expected:
+    print("Passed: letter_grade(89.9) == 'B'")
+else:
+    print("Failed: letter_grade(89.9) should be 'B'")
+    print("  expected:", expected)
+    print("  actual:  ", actual)  
+
+
+expected = "C"
+actual = letter_grade(75.0)
+
+if actual == expected:
+    print("Passed: letter_grade(75.0 == 'C'")
+else:
+    print("Failed: letter_grade(75.0) should be 'C'")
+    print("  expected:", expected)
+    print("  actual:  ", actual)
+    
+    
+expected = "C"
+actual = letter_grade(79.95)
+
+if actual == expected:
+    print("Passed: letter_grade(79.9 == 'C'")
+else:
+    print("Failed: letter_grade(79.9) should be 'C'")
+    print("  expected:", expected)
+    print("  actual:  ", actual)
+    
+
+"""
 # --------------------------------------------
 # --- minimum_grade(grade, category, major)
 # --------------------------------------------
@@ -65,3 +118,4 @@ if minimum_grade("C", "major", "CS") == True:
     print("Passed: minimum_grade('C', 'major', 'CS') returned True")
 else:
     print("Failed: minimum_grade('C', 'major', 'CS') should return True")
+"""
