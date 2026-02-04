@@ -264,14 +264,12 @@ Hire
 
 ---
 
-b. Would your logic change if the program only needed to output one of the following?
+b. How would your logic change if the program only needed to output one of the following? (explain in detail or show code)
 
 ```
 Hire
 Do Not Hire
 ```
-
-Explain your answer in **1–2 sentences**.
 
 ---
 
