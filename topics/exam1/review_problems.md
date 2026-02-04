@@ -1,10 +1,7 @@
 
-# Exam #1 sample review problems
+# CS 216 Exam #1 sample review problems
 
-Sample questions (or slightly modified) from previous exams.
-
----
-Below are the **questions only**, formatted cleanly in **Markdown**, with all code shown in **Python code blocks** and **no answers included**—ready to post as an exam review.
+Sample questions (or slightly modified questions) from previous exams and class examples.
 
 ---
 
@@ -239,5 +236,43 @@ Does not end with a zero
 *** show code here
 
 ```
+
+---
+
+## 12. Input, Branching Question
+
+A local tech company evaluates job candidates based on **soft skills** and **technical skills**.
+
+* `soft_skills` — an integer from **1 to 10**
+  * A score of **6 or higher** is required to meet the soft-skills requirement
+* `tech_skills` — an integer from **1 to 10**
+  * A score of **7 or higher** is required to meet the technical-skills requirement
+
+a. Write a Python program that:
+
+1. Inputs the values for `soft_skills` and `tech_skills`. You may assume the user will enter valid integers within the given ranges.
+2. Uses **if statements** to determine the correct outcome
+3. Uses the **least number of comparisons possible**
+4. Outputs **exactly one** of the following messages (with priority shown):
+
+```
+Do Not Hire - Soft skills low
+Do Not Hire - Tech skills low
+Do Not Hire - Tech and Soft skills low
+Hire
+```
+
+---
+
+b. Would your logic change if the program only needed to output one of the following?
+
+```
+Hire
+Do Not Hire
+```
+
+Explain your answer in **1–2 sentences**.
+
+---
 
 
