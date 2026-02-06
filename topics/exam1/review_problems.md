@@ -1,8 +1,46 @@
 
 # CS 216 Exam #1 sample review problems
 
-Sample questions (or slightly modified questions) from previous exams and class examples.
+Review text ch1 to ch6, sample code on GitHub, and program assignments.
 
+You may use a 1 page front/back help guide
+
+Exam will be paper format with questions similiar to samples shown. 
+
+Questions will include following Topics
+
+**Planning and Documentation**
+- purpose and benefits of IPO, sample calculations
+- purpose and benefits of automated test cases
+- comments to include at top of code (program name, author, date, description)
+- role of comments within code and whitespace
+
+**Basics**
+- int, flt, str variables
+- variable names
+- +, -, *, /, %, **
+- order of operations
+- single and multi-line comments
+
+**input and output**
+- input int, float, and string values
+- use print formatting (f-string) to display values with 1 or 2 decimal points and commas
+- print text and variables
+- print text with end=""
+
+**Functions**
+- define/call function with 0, 1, or more parameters
+- pass int, float, string
+- return int, float, string 
+- function stub, reasons for functions 
+- modules, import, use of if __name__ == "__main__":
+  
+**If Statements**
+- individual IF logic with single if statements (no else or elif)
+- nested if logic with if and else
+- nested if logic with if and elif
+- role of efficiency and clarity
+  
 ---
 
 ## 1. What will be output by the following statements?
@@ -341,14 +379,6 @@ print("Done")
 a. What is printed when `program2.py` is executed?
 
 b. What is printed when `program1.py` is executed?
-
----
-
-Excellent — these are strong conceptual exam questions. Here are polished, copy-ready short-essay prompts you can use directly.
-
----
-
-# Short Essay Questions
 
 ---
 
