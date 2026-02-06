@@ -3,11 +3,11 @@
 
 Review text ch1 to ch6, sample code on GitHub, and program assignments.
 
-You may use a 1 page front/back help guide
+You may use a 1 page front/back help guide (any notes you want to make on 8.5" x 11" (or A4) paper front and back)
 
 Exam will be paper format with questions similiar to samples shown. 
 
-Questions will include following Topics
+Questions will include following **Topics**
 
 **Planning and Documentation**
 - purpose and benefits of IPO, sample calculations
@@ -40,6 +40,7 @@ Questions will include following Topics
 - nested if logic with if and else
 - nested if logic with if and elif
 - role of efficiency and clarity
+
   
 ---
 
