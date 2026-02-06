@@ -348,10 +348,33 @@ def multiply(a, b):
 # d. Display 16 x 256 using the multiply function
 
 ```
+---
+# 14. Function Creation Question
 
+a. Write a Python function named `circle_area` that:
+- Takes one argument: `radius`
+- Returns the area of a circle
+- Uses the formula: area = π × radius²
+- Does NOT print anything inside the function
+- Use `3.14` as the value of π.
+
+b. After writing the function, write one line of code that:
+- Calls the function with a radius of `5`
+- Stores the returned value in a variable named `area`
+- Do not use input statements.
+
+```
+# a. define function
+
+
+
+
+# b. call function
+
+```
 ---
 
-# 14. modules and main
+# 15. modules and main
 
 Consider the following two files.
 
@@ -382,19 +405,19 @@ b. What is printed when `program1.py` is executed?
 
 ---
 
-## 15. Purpose of an IPO Chart
+## 16. Purpose of an IPO Chart
 
 In your own words, explain the purpose of an IPO (Input-Process-Output) chart in program design. As part of your answer describe the content for each part (Input, Process, Output) and state why IPO charts are useful before writing code. (1 paragraph)
 
 ---
 
-## 16. Sample Hand Calculations Before Coding
+## 17. Sample Hand Calculations Before Coding
 
 Before writing code for a program, students are often required to complete sample hand calculations. Describe two benefits of completing hand calculations. (1 paragraph)
 
 ---
 
-## 17. Benefits of Automated Test Cases and "Testing First"
+## 18. Benefits of Automated Test Cases and "Testing First"
 
 Describe one benefit of writing automated test cases before you begin coding. Describe one benefit of having automated test cases dursing coding and/or after coding is completed. (1 paragraph)
 
