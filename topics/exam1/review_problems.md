@@ -273,4 +273,78 @@ Do Not Hire
 
 ---
 
+# 13 Calling Functions
+
+Given the following functions: `display_menu()`, `get_random_number`, `print_square`, and `multiply`, 
+
+Complete the following Python code in Main to use (ie. call) each of the functions as specified. **Do Not Modify the Functions**.
+
+```python
+# *** do not modify the functions ***
+
+def display_menu():
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Quit")
+
+def get_random_number():
+    import random
+    return random.randint(1, 10)
+
+def print_square(number):
+    print(number * number)
+
+def multiply(a, b):
+    return a * b
+
+# *** do not modify the functions ***
+
+# main
+
+# a. Use the display_menu function to display a menu ie. 1. Add, 2 Subtract ...
+
+# b. Use the get_random_number to assign a random number to variable spin
+
+# c. Display the square of 50 using the print_square function
+
+# d. Display 16 x 256 using the multiply function
+
+```
+
+---
+
+# 13. modules and main
+
+Consider the following two files.
+
+### File: `program1.py`
+
+```python
+def greet():
+    print("Hello!")
+
+if __name__ == "__main__":
+    greet()
+````
+
+### File: `program2.py`
+
+```python
+import program1
+print("Done")
+```
+
+---
+
+### Questions
+
+a. What is printed when `program2.py` is executed?
+
+b. What is printed when `program1.py` is executed?
+
+
+-- end --
+
+
+
 
