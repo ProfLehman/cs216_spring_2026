@@ -9,9 +9,10 @@ Exam will be paper format with questions similiar to samples shown.
 
 Questions will include following **Topics**
 
-**Planning and Documentation**
+**Planning, Documentation, and Testing**
 - purpose and benefits of IPO, sample calculations
 - purpose and benefits of automated test cases
+- what are "edge cases"
 - comments to include at top of code (program name, author, date, description)
 - role of comments within code and whitespace
 
@@ -29,7 +30,7 @@ Questions will include following **Topics**
 - print text with end=""
 
 **Functions**
-- define/call function with 0, 1, or more parameters
+- define/call a function with 0, 1, or more parameters
 - pass int, float, string
 - return int, float, string 
 - function stub, reasons for functions 
@@ -40,7 +41,6 @@ Questions will include following **Topics**
 - nested if logic with if and else
 - nested if logic with if and elif
 - role of efficiency and clarity
-
   
 ---
 
@@ -334,7 +334,8 @@ def print_square(number):
     print(number * number)
 
 def multiply(a, b):
-    return a * b
+    answer = a * b
+    return answer
 
 # *** do not modify the functions ***
 
@@ -342,7 +343,7 @@ def multiply(a, b):
 
 # a. Use the display_menu function to display a menu ie. 1. Add, 2 Subtract ...
 
-# b. Use the get_random_number to assign a random number to variable spin
+# b. Use the get_random_number to assign a random number to the variable spin
 
 # c. Display the square of 50 using the print_square function
 
@@ -408,7 +409,7 @@ b. What is printed when `program1.py` is executed?
 
 ## 16. Purpose of an IPO Chart
 
-In your own words, explain the purpose of an IPO (Input-Process-Output) chart in program design. As part of your answer describe the content for each part (Input, Process, Output) and state why IPO charts are useful before writing code. (1 paragraph)
+In your own words, explain the purpose of an IPO (Input-Process-Output) chart in program design. As part of your answer, describe the content for each part (Input, Process, Output) and state why IPO charts are useful before writing code. (1 paragraph)
 
 ---
 
@@ -420,7 +421,7 @@ Before writing code for a program, students are often required to complete sampl
 
 ## 18. Benefits of Automated Test Cases and "Testing First"
 
-Describe one benefit of writing automated test cases before you begin coding. Describe one benefit of having automated test cases dursing coding and/or after coding is completed. (1 paragraph)
+Describe one benefit of writing automated test cases before you begin coding. Describe one benefit of having automated test cases during coding and/or after coding is completed. (1 paragraph)
 
 ---
 -- end --
