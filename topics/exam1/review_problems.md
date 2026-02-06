@@ -1,13 +1,13 @@
 
 # CS 216 Exam #1 sample review problems
 
-Review text ch1 to ch6, sample code on GitHub, and program assignments.
+Review text ch1 to ch6, sample code on GitHub, and program assignments. Review Topics List below.
 
-You may use a 1 page front/back help guide (any notes you want to make on 8.5" x 11" (or A4) paper front and back)
+You may use a 1-page front/back help guide (any notes you want to make on 8.5" x 11" (or A4) paper front and back)
 
-Exam will be paper format with questions similiar to samples shown. 
+The exam will be paper format with questions similar to the samples shown. 
 
-Questions will include following **Topics**
+## Topic List
 
 **Planning, Documentation, and Testing**
 - purpose and benefits of IPO, sample calculations
@@ -17,10 +17,12 @@ Questions will include following **Topics**
 - role of comments within code and whitespace
 
 **Basics**
-- int, flt, str variables
+- int (5, -5), float (5.25, -5.25), str ("text" or 'text', bool (True or False) variables
 - variable names
 - +, -, *, /, %, **
 - order of operations
+- relational operators (<, >, <=, >=, ==, !=), and, or)
+- assignment (month = "February") vs comparison (month == "February")
 - single and multi-line comments
 
 **input and output**
@@ -43,6 +45,9 @@ Questions will include following **Topics**
 - role of efficiency and clarity
   
 ---
+
+
+## Sample Questions
 
 ## 1. What will be output by the following statements?
 
