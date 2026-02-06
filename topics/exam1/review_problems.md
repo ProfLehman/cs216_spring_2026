@@ -273,7 +273,7 @@ Do Not Hire
 
 ---
 
-# 13 Calling Functions
+# 13. Calling Functions
 
 Given the following functions: `display_menu()`, `get_random_number`, `print_square`, and `multiply`, 
 
@@ -313,7 +313,7 @@ def multiply(a, b):
 
 ---
 
-# 13. modules and main
+# 14. modules and main
 
 Consider the following two files.
 
@@ -342,7 +342,33 @@ a. What is printed when `program2.py` is executed?
 
 b. What is printed when `program1.py` is executed?
 
+---
 
+Excellent — these are strong conceptual exam questions. Here are polished, copy-ready short-essay prompts you can use directly.
+
+---
+
+# Short Essay Questions
+
+---
+
+## 15. Purpose of an IPO Chart
+
+In your own words, explain the purpose of an IPO (Input-Process-Output) chart in program design. As part of your answer describe the content for each part (Input, Process, Output) and state why IPO charts are useful before writing code. (1 paragraph)
+
+---
+
+## 16. Sample Hand Calculations Before Coding
+
+Before writing code for a program, students are often required to complete sample hand calculations. Describe two benefits of completing hand calculations. (1 paragraph)
+
+---
+
+## 17. Benefits of Automated Test Cases and "Testing First"
+
+Describe one benefit of writing automated test cases before you begin coding. Describe one benefit of having automated test cases dursing coding and/or after coding is completed. (1 paragraph)
+
+---
 -- end --
 
 
