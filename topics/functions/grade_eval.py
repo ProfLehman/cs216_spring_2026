@@ -42,6 +42,47 @@ def letter_grade(percent: float) -> str:
         
     if percent >= 70.0 and percent < 80.0:
         grade = "C"
+        
+    if percent >= 60.0 and percent < 70.0:
+        grade = "D"
+    
+    if percent < 60.0:
+        grade = "F"
+    
+    
+    
+    if percent >= 90.0:
+        grade = "A"
+        
+    elif percent >= 80:
+        grade = "B"
+        
+    elif percent >= 70:
+        grade = "C"
+        
+    elif percent >= 60:
+        grade = "D"
+        
+    else:
+        grade = "F"
+        
+    
+    
+    if percent < 60.0:
+        grade = "F"
+        
+    elif percent < 70.0:
+        grade = "D"
+        
+    elif percent < 80.0:
+        grade = "C"
+        
+    elif percent < 90.0:
+        grade = "B"
+        
+    else:
+        grade = "A"
+    
     
     return grade
 
@@ -122,6 +163,7 @@ if __name__ == "__main__":
 
     percent = grade_percentage(attendance, exams, assignments)
 
+    percent = 85.0
     grade = letter_grade(percent)
 
 

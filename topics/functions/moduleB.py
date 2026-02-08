@@ -7,9 +7,9 @@ def msg():
     print("Today is Monday ...")
 
 # prevent the code below from running when this module is imported
-if __name__ == "__main__":
-    print("Main from Module B")
-    msg() # call the function from current module (ie. moduleB) 
+#if __name__ == "__main__":
+print("Main from Module B")
+msg() # call the function from current module (ie. moduleB) 
     
     
     
