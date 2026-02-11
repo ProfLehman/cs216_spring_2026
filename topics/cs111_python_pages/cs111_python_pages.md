@@ -13,7 +13,7 @@
 
 5. [Loops - Count Controlled and Sentinel](https://colab.research.google.com/drive/1pNduVzZ1Ap4k4jiq9jd09zrBuus_C3kv?usp=drive_link)
 
-6. [Random Numbers](https://colab.research.google.com/drive/1pNduVzZ1Ap4k4jiq9jd09zrBuus_C3kv?usp=drive_link](https://colab.research.google.com/drive/12utJ7apsB3DckwHlC8vztzowTF3uFS0u?usp=drive_link)
+6. [Random Numbers](https://colab.research.google.com/drive/12utJ7apsB3DckwHlC8vztzowTF3uFS0u?usp=drive_link)
 
 -- end --
 
