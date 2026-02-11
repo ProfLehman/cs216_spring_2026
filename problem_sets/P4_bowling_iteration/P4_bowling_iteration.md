@@ -1,4 +1,10 @@
-# CS 216 P4 – Bowling Scores
+# CS216 – Software Development
+
+**Programming Assignment CS 216 P4 – Bowling Scores**  
+**30 points**  
+**Due: 5:00 pm, Wednesday, February 18, 2026** 
+
+---
 
 ## Requirements
 
@@ -109,9 +115,7 @@ This approach:
 
 Refer to:
 
-```
-Bowling-Logic.jpg
-```
+![Bowling-Logic]Bowling-Logic.jpg)
 
 ---
 
