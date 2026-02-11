@@ -98,10 +98,6 @@ Avg Score: 185.50
   * Your name
   * The current date
 
-* Submit your code for grading.
-
-* You may submit your program as many times as needed to pass the sample output tests.
-
 ---
 
 ## Loop Logic Requirement
@@ -115,8 +111,35 @@ This approach:
 
 Refer to:
 
-![Bowling-Logic]Bowling-Logic.jpg)
+![Bowling-Logic](Bowling-Logic.jpg)
 
+---
+## Starting Code
+
+```python
+# ** add program name here **
+# ** add your name here **
+# **add date here **
+# sentinel-controlled loop to determine high, low, average
+# bowling scores
+
+min = 301
+max = -1
+numberBowlers = 0
+totalScore = 0
+
+# Processing using Sentinel loop
+
+# ** add your code here **
+
+    
+# Output
+print()
+print(f"Number of Bowlers: {numberBowlers}")
+print(f"High Score: {max}")
+print(f"Low Score: {min}")
+print(f"Avg Score: {avg:.1f}")
+```
 ---
 
 **End of Requirements**
