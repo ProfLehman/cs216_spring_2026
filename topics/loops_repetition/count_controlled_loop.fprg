@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="count_controlled_loop"/>
+        <attribute name="authors" value="jlehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-13 08:27:55 AM"/>
+        <attribute name="created" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDI2LTAyLTEzOzA4OjIzOjQ3IEFNOzI2MDQ="/>
+        <attribute name="edited" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDI2LTAyLTEzOzA4OjI3OjU1IEFNOzE7MjcxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <while expression="a &lt; 4">
+                <output expression="&quot;a = &quot; &amp; a" newline="True"/>
+                <assign variable="a" expression="a + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
