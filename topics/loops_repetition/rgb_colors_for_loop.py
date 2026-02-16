@@ -1,4 +1,4 @@
-# rgb_colors.py
+# rgb_colors_for_loop.py
 #
 # prof. lehman
 # spring 2026
@@ -7,7 +7,7 @@
 # rgb color options with starting value for red
 # and varying green and blue
 #
-# uses while loops
+# uses for loops
 
 # Input starting Red value
 red = int(input("Enter starting Red value (0-255): "))
@@ -33,15 +33,13 @@ with open(filename, "w") as f:
     f.write(f"<h2>Red = {red}</h2>")
     f.write("<div class='grid'>")
 
-    count = 0
-    
-    g_percent = 0
-    while g_percent <= 100:
+    count = 0   
+
+    for g_percent in range(0, 101, 25):
 
         g = int(255 * g_percent / 100)
 
-        b_percent = 0
-        while b_percent <= 100:
+        for b_percent in range(0, 101, 25):
 
             b = int(255 * b_percent / 100)
 
@@ -50,12 +48,9 @@ with open(filename, "w") as f:
                     f"{red},{g},{b}</div>")
 
             count = count + 1
-            
-            b_percent += 25
-            # end while b_percent
-            
-        g_percent += 25
-        #end while g_percent
+            # end for b_percent
+    
+        #end for g_percent
         
         
     # write html ending tags
