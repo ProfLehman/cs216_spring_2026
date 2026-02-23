@@ -64,13 +64,14 @@
 import re
 
 # match exactly x3 digits
-pattern = r"\d{3}"
+pattern = r"\d{2}"
 print("regular expression pattern: ", pattern)
 print()
 
-test_values = ["123", "000", "12", "1234", "abc", "12a", "0", "987"]
+test_values = ["123", "000", "12", "1234", "abc", "12a", "0", "987", "888"]
 
 for value in test_values:
+    
     if re.fullmatch(pattern, value):
         print(f"{value} is MATCH")
     else:
@@ -98,10 +99,42 @@ print()
 
 # more examples
 
-# Pattern for zip code?  XXXXX
+# Patern for x5 digit zip code XXXXX
+pattern = r"\d{5}"
+print()
+print( pattern )
+print( bool(re.fullmatch(pattern, "12345")) )
+print( bool(re.fullmatch(pattern, "123456")) )
+
 # Pattern for zip with extension? XXXXX-XXXX
+pattern = r"abc\d{5}-\{4}"
+print()
+print( pattern )
+print( bool(re.fullmatch(pattern, "12345-1234")) )
+print( bool(re.fullmatch(pattern, "12345-123")) )
+
 # Pattern for phone number: (123) 456-7890
 pattern = r"\(\d{3}\) \d{3}-\d{4}"
+print()
+print( pattern )
+print( bool(re.fullmatch(pattern, "(123) 456-7890")) )
+print( bool(re.fullmatch(pattern, "123456-7890")) )
+
+# match .edu email
+pattern = r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.edu"
+print()
+print( pattern )
+print( bool(re.fullmatch(pattern, "test@acme.edu")) )
+print( bool(re.fullmatch(pattern, "test@acme.com")) )
+print( bool(re.fullmatch(pattern, "test.edu@acme")) )
+
+# -- end --
+
+
+
+
+
+
 
 
 
