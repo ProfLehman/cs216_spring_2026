@@ -6,7 +6,7 @@
 data = [ 2, 4, 5, 6 ]
 
 print( 3 in data ) #False
-print( 3 in data ) #True
+print( 4 in data ) #True
 print()
 
 if 5 in data:

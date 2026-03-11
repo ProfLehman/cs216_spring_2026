@@ -29,7 +29,7 @@ last_names = [
 data = []
 
 # set seed so results are repeatable
-# random.seed(42)
+random.seed(42)
 
 # create 20 records
 for i in range(20):
@@ -56,6 +56,16 @@ print()
 # display all students with their exam 1 score ie. Amy Garcia, 89
 
 # display the class all exam 1 scores in format last name, score ie. Smith, 89
+i = 0
+while i < len(data):
+
+    name = data[i]
+    print( name, data[i+1] )
+    
+    i = i + 3
+    
+
+
 
 # display the high score for exam 1
 
