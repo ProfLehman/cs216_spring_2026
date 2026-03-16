@@ -4,6 +4,8 @@
 # prof. lehman
 # in-class example for sentinel loops and strings
 
+import re
+
 def valid_password( password ):
     
     valid = True
@@ -15,6 +17,8 @@ def valid_password( password ):
 
     # check for number
     found_number = False
+    
+    """
     x = 0
     while found_number == False and x < len(password):
         d = password[x]
@@ -24,7 +28,9 @@ def valid_password( password ):
             found_number = True
     
         x = x + 1
-        
+    """
+    found_number = bool( re.search(r"[0-9]", password ) )
+    
     if found_number == False:
         valid = False
         print("Need Number")
@@ -33,6 +39,8 @@ def valid_password( password ):
   
     # check for special character
     found_special = False
+    
+    """
     x = 0
     while found_special == False and x < len(password):
         
@@ -42,7 +50,10 @@ def valid_password( password ):
             found_special = True
     
         x = x + 1
-        
+    """
+    
+    found_special = bool( re.search(r"[A-Za-z0-9]", password ) )
+     
     if found_special == False:
         valid = False
         print("Need Special Character - not a letter or number")
@@ -51,6 +62,8 @@ def valid_password( password ):
     # check for upper and lower case
     found_upper = False
     found_lower = False
+    
+    """
     x = 0
     while x < len(password):
         
@@ -63,7 +76,10 @@ def valid_password( password ):
             found_lower = True;
         
         x = x + 1
-        
+    """
+    found_upper = bool( re.search(r"[A-Z]", password ) )
+    found_lower = bool( re.search(r"[a-z]", password ) )
+     
     if found_upper == False:
         valid = False
         print("Need upper case")
