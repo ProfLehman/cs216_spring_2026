@@ -30,7 +30,8 @@ print()
 # search for item in dictionary
 search = input("Enter cookie: ")
 
-if search in cookie.keys():
+if search in cookie:
+#if search in cookie.keys():
 #if cookie.get( search, -1) != -1:
 #if cookie.get( search ) != None:
     print( "found" )
