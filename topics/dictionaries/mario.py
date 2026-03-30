@@ -1,4 +1,8 @@
 
+# mario.py
+# spring 2026
+# prof. lehman
+# dictionary and tuple to store 2-D world
 
 
 text_world = ""
@@ -9,7 +13,8 @@ text_world += "    #  =      XX          #     " + "\n"
 text_world += "    #  #     XXX   XXXX   #     " + "\n"
 text_world += "--------------------------------"
 
-print( text_world )
+# display original world
+print(text_world)
 
 # create dictionary
 world = {}
@@ -24,13 +29,19 @@ for row in range(len(lines)):
         if char != " ":
             world[(row, col)] = char
 
-# display original world
-print(text_world)
-
 # display dictionary
 print("\nDictionary contents:")
 for key in sorted(world):
     print(f"{key}: '{world[key]}'")
     
     
-    
+# display world from dictionary
+for row in range(0,6):
+    for col in range(0,30):
+        if (row, col) in world:
+            print( world[row,col], end="")
+        else:
+            print( " ", end="")
+    print()
+
+
