@@ -9,10 +9,14 @@
 import random
 
 # number of rolls
-N = 1000
+N = 100
 
 # dictionary to store counts
 counts = {}
+
+# alternate approach add entry for each
+#for key in range(2,13):
+#	counts[key] = 0
 
 # simulate rolling the dice N times
 for i in range(N):
@@ -21,8 +25,14 @@ for i in range(N):
     
     total = die1 + die2
     
-    # update dictionary counts
-        
+     # update dictionary counts
+    if total in counts:
+        counts[ total ] = counts[ total ] + 1
+    else:
+        counts[ total ] = 1
+     
+    # end loop
+    
     
 # display results of rolling 2 to 12
 # in format
@@ -30,8 +40,20 @@ for i in range(N):
 #   3: 4
 # ...
 #  12: 2
+print()
 print( counts )
+print()
 
+key = 2
+
+while key <= 12:
+
+    if key in counts:
+        print( f"{key} : {counts[key]}" )
+    else:
+        print( f"{key} : 0" )
+    
+    key = key + 1
 
 # update N to be 10 rather than 1000 and run code
 # update N to be 0 rather than 1000 and run code
