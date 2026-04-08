@@ -2,7 +2,8 @@
 
 **P8 Assignment: Counting Chapel Attendance**  
 **30 points**  
-**Due: 5:00 pm, April 8, 2026**  
+**Due: 5:00 pm, April 8, 2026 -  Extended: Friday, April 10, 2026**
+
 
 ---
 
