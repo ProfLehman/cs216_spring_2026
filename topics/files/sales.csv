@@ -1,0 +1,101 @@
+sale_id,student_name,customer_name,customer_phone,product,qty
+1,Ava Johnson,Liam Carter,260-555-0101,Chocolate Bar,3
+2,Noah Smith,Emma Davis,260-555-0102,Gummy Bears,2
+3,Olivia Miller,Mason Hall,260-555-0103,Sour Worms,5
+4,Ethan Brown,Sophia Green,260-555-0104,Lollipops,4
+5,Isabella Davis,James Young,260-555-0105,Caramel Chews,2
+6,Lucas Wilson,Mia Baker,260-555-0106,Peanut Butter Cups,3
+7,Mia Taylor,Benjamin Adams,260-555-0107,Jelly Beans,1
+8,Mason Anderson,Charlotte Nelson,260-555-0108,Licorice Twists,2
+9,Charlotte Thomas,Elijah Hill,260-555-0109,Toffee Bites,4
+10,Amelia Moore,Amelia Scott,260-555-0110,Candy Corn,3
+11,James Martin,Logan Perez,260-555-0111,Chocolate Bar,2
+12,Harper Jackson,Evelyn Roberts,260-555-0112,Gummy Bears,6
+13,Ava Johnson,Alexander Turner,260-555-0113,Sour Worms,3
+14,Noah Smith,Abigail Phillips,260-555-0114,Lollipops,5
+15,Olivia Miller,Henry Campbell,260-555-0115,Caramel Chews,2
+16,Ethan Brown,Harper Parker,260-555-0116,Peanut Butter Cups,4
+17,Isabella Davis,Daniel Evans,260-555-0117,Jelly Beans,3
+18,Lucas Wilson,Emily Edwards,260-555-0118,Licorice Twists,2
+19,Mia Taylor,Michael Collins,260-555-0119,Toffee Bites,1
+20,Mason Anderson,Avery Stewart,260-555-0120,Candy Corn,5
+21,Charlotte Thomas,Matthew Sanchez,260-555-0121,Chocolate Bar,4
+22,Amelia Moore,Ella Morris,260-555-0122,Gummy Bears,2
+23,James Martin,Joseph Rogers,260-555-0123,Sour Worms,3
+24,Harper Jackson,Scarlett Reed,260-555-0124,Lollipops,6
+25,Ava Johnson,David Cook,260-555-0125,Caramel Chews,2
+26,Noah Smith,Grace Morgan,260-555-0126,Peanut Butter Cups,3
+27,Olivia Miller,Samuel Bell,260-555-0127,Jelly Beans,4
+28,Ethan Brown,Chloe Murphy,260-555-0128,Licorice Twists,1
+29,Isabella Davis,Andrew Bailey,260-555-0129,Toffee Bites,2
+30,Lucas Wilson,Lily Rivera,260-555-0130,Candy Corn,3
+31,Mia Taylor,Gabriel Cooper,260-555-0131,Chocolate Bar,5
+32,Mason Anderson,Hannah Richardson,260-555-0132,Gummy Bears,4
+33,Charlotte Thomas,Christopher Cox,260-555-0133,Sour Worms,2
+34,Amelia Moore,Zoey Howard,260-555-0134,Lollipops,3
+35,James Martin,John Ward,260-555-0135,Caramel Chews,1
+36,Harper Jackson,Nora Torres,260-555-0136,Peanut Butter Cups,2
+37,Ava Johnson,Isaac Peterson,260-555-0137,Jelly Beans,5
+38,Noah Smith,Aubrey Gray,260-555-0138,Licorice Twists,2
+39,Olivia Miller,Julian Ramirez,260-555-0139,Toffee Bites,3
+40,Ethan Brown,Addison James,260-555-0140,Candy Corn,4
+41,Isabella Davis,Leo Watson,260-555-0141,Chocolate Bar,1
+42,Lucas Wilson,Aurora Brooks,260-555-0142,Gummy Bears,3
+43,Mia Taylor,Wyatt Kelly,260-555-0143,Sour Worms,4
+44,Mason Anderson,Ellie Sanders,260-555-0144,Lollipops,2
+45,Charlotte Thomas,Jack Price,260-555-0145,Caramel Chews,6
+46,Amelia Moore,Stella Bennett,260-555-0146,Peanut Butter Cups,3
+47,James Martin,Luke Wood,260-555-0147,Jelly Beans,2
+48,Harper Jackson,Lucy Barnes,260-555-0148,Licorice Twists,4
+49,Ava Johnson,Dylan Ross,260-555-0149,Toffee Bites,5
+50,Noah Smith,Violet Henderson,260-555-0150,Candy Corn,2
+51,Olivia Miller,Levi Coleman,260-555-0151,Chocolate Bar,3
+52,Ethan Brown,Hazel Jenkins,260-555-0152,Gummy Bears,1
+53,Isabella Davis,Isaiah Perry,260-555-0153,Sour Worms,2
+54,Lucas Wilson,Savannah Powell,260-555-0154,Lollipops,5
+55,Mia Taylor,Owen Long,260-555-0155,Caramel Chews,4
+56,Mason Anderson,Penelope Patterson,260-555-0156,Peanut Butter Cups,2
+57,Charlotte Thomas,Nathan Hughes,260-555-0157,Jelly Beans,3
+58,Amelia Moore,Riley Flores,260-555-0158,Licorice Twists,5
+59,James Martin,Caleb Washington,260-555-0159,Toffee Bites,2
+60,Harper Jackson,Layla Butler,260-555-0160,Candy Corn,1
+61,Ava Johnson,Ryan Simmons,260-555-0161,Chocolate Bar,4
+62,Noah Smith,Aria Foster,260-555-0162,Gummy Bears,3
+63,Olivia Miller,Christian Gonzales,260-555-0163,Sour Worms,6
+64,Ethan Brown,Naomi Bryant,260-555-0164,Lollipops,2
+65,Isabella Davis,Jonathan Alexander,260-555-0165,Caramel Chews,3
+66,Lucas Wilson,Elena Russell,260-555-0166,Peanut Butter Cups,1
+67,Mia Taylor,Thomas Griffin,260-555-0167,Jelly Beans,4
+68,Mason Anderson,Aaliyah Diaz,260-555-0168,Licorice Twists,2
+69,Charlotte Thomas,Charles Hayes,260-555-0169,Toffee Bites,3
+70,Amelia Moore,Claire Myers,260-555-0170,Candy Corn,5
+71,James Martin,Josiah Ford,260-555-0171,Chocolate Bar,2
+72,Harper Jackson,Audrey Hamilton,260-555-0172,Gummy Bears,4
+73,Ava Johnson,Easton Graham,260-555-0173,Sour Bears,1
+74,Noah Smith,Anna Sullivan,260-555-0174,Lollipops,3
+75,Olivia Miller,Adrian Wallace,260-555-0175,Caramel Chews,2
+76,Ethan Brown,Brooklyn Woods,260-555-0176,Peanut Butter Cups,5
+77,Isabella Davis,Lincoln Cole,260-555-0177,Jelly Beans,3
+78,Lucas Wilson,Paisley West,260-555-0178,Licorice Twists,1
+79,Mia Taylor,Jeremiah Jordan,260-555-0179,Toffee Bites,4
+80,Mason Anderson,Everly Owens,260-555-0180,Candy Corn,2
+81,Charlotte Thomas,Connor Reynolds,260-555-0181,Chocolate Bar,6
+82,Amelia Moore,Caroline Fisher,260-555-0182,Gummy Bears,2
+83,James Martin,Angel Ellis,260-555-0183,Sour Worms,3
+84,Harper Jackson,Sarah Harrison,260-555-0184,Lollipops,4
+85,Ava Johnson,Robert Gibson,260-555-0185,Caramel Chews,5
+86,Noah Smith,Alice McDonald,260-555-0186,Peanut Butter Cups,2
+87,Olivia Miller,Nicholas Cruz,260-555-0187,Jelly Beans,1
+88,Ethan Brown,Kennedy Marshall,260-555-0188,Licorice Twists,3
+89,Isabella Davis,Jason Ortiz,260-555-0189,Toffee Bites,2
+90,Lucas Wilson,Madelyn Gomez,260-555-0190,Candy Corn,4
+91,Mia Taylor,Aaron Murray,260-555-0191,Chocolate Bar,3
+92,Mason Anderson,Piper Freeman,260-555-0192,Gummy Bears,5
+93,Charlotte Thomas,Eli Wells,260-555-0193,Sour Worms,2
+94,Amelia Moore,Sophie Webb,260-555-0194,Lemon Drops,1
+95,James Martin,Colton Simpson,260-555-0195,Caramel Chews,3
+96,Harper Jackson,Maya Stevens,260-555-0196,Peanut Butter Cups,4
+97,Ava Johnson,Jaxon Tucker,260-555-0197,Jelly Beans,2
+98,Noah Smith,Bella Porter,260-555-0198,Licorice Twists,6
+99,Olivia Miller,Adam Hunter,260-555-0199,Toffee Bites,3
+100,Ethan Brown,Faith Hicks,260-555-0200,Candy Corn,2
