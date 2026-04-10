@@ -1,11 +1,13 @@
 
 # Reading a CSV File in Python (Two Approaches)
 
+![handout graphic overview](./csv_readline_vs_reader.png)  
 This handout shows two ways to read a `.csv` file in Python using the format:
 
 ```
 name,exam1,exam2,final
 ```
+
 
 ---
 
@@ -46,6 +48,7 @@ file.close()
 | Simple and transparent   | Error-prone with messy data        |
 | Good for learning basics | Does not handle commas inside data |
 | No imports needed        | More manual work                   |
+| Approach works in any coding language           |
 
 ---
 
@@ -79,9 +82,10 @@ with open("grades.csv", "r") as file:
 
 | Pros                         | Cons                             |
 | ---------------------------- | -------------------------------- |
-| Safer and more robust        | Slightly more abstract           |
+| Safer and more robust        | Slightly more abstract (hides what is happening)           |
 | Handles real-world CSV files | Requires import                  |
 | Cleaner code                 | Less “under the hood” visibility |
+|                     | Approach may not be available in all languages |
 
 ---
 
@@ -89,7 +93,7 @@ with open("grades.csv", "r") as file:
 
 * Use **Approach 1**:
 
-  * Teaching fundamentals
+  * Understanding fundamentals
   * Very simple, controlled data
 
 * Use **Approach 2**:
