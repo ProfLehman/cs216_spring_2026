@@ -563,101 +563,160 @@ print("student_totals.csv written successfully.")
 Your exact numbers will depend on your files, but the output might look something like this:
 
 ```text
+>>> %Run candy_sales_full_solution.py
 TASK 1 - PRODUCTS
 Chocolate Bar 1.5
-Gummy Bears 2.0
-Lollipop 0.75
-Caramel Squares 1.25
+Gummy Bears 1.25
+Sour Worms 1.25
+Lollipops 0.75
+Caramel Chews 1.0
+Peanut Butter Cups 1.5
+Jelly Beans 1.25
+Sugar Blasts 1.5
+Licorice Twists 1.0
+Toffee Bites 1.75
+Candy Corn 1.25
 
 TASK 2 - FIRST 10 SALES
-1 Ava Johnson Liam Smith Chocolate Bar 3
-2 Noah Miller Emma Brown Gummy Bears 2
-3 Ava Johnson Olivia Davis Lollipop 5
-4 Mia Wilson Ethan Hall Chocolate Bar 4
-5 Liam Taylor Sophia King Caramel Squares 2
-6 Ava Johnson Mason Lee Gummy Bears 1
-7 Noah Miller Isabella Clark Lollipop 6
-8 Emma Thomas Lucas Young Chocolate Bar 2
-9 Mia Wilson Charlotte Scott Gummy Bears 3
-10 Liam Taylor Amelia Green Caramel Squares 4
+1 Ava Johnson Liam Carter Chocolate Bar 3
+2 Noah Smith Emma Davis Gummy Bears 2
+3 Olivia Miller Mason Hall Sour Worms 5
+4 Ethan Brown Sophia Green Lollipops 4
+5 Isabella Davis James Young Caramel Chews 2
+6 Lucas Wilson Mia Baker Peanut Butter Cups 3
+7 Mia Taylor Mia Baker Jelly Beans 1
+8 Mason Anderson Charlotte Nelson Licorice Twists 2
+9 Charlotte Thomas Elijah Hill Toffee Bites 4
+10 Amelia Moore Amelia Scott Candy Corn 3
 
 TASK 3 - TOTAL SALES TRANSACTIONS
 Total sales transactions: 100
 
 TASK 4 - TOTAL QUANTITY SOLD
-Total quantity sold: 287
+Total quantity sold: 306
 
 TASK 5 - UNIQUE STUDENTS
 Ava Johnson
-Noah Miller
-Mia Wilson
-Liam Taylor
-Emma Thomas
+Noah Smith
+Olivia Miller
+Ethan Brown
+Isabella Davis
+Lucas Wilson
+Mia Taylor
+Mason Anderson
+Charlotte Thomas
+Amelia Moore
+Harper Jackson
+James Martin
 Total unique students: 12
 
-TASK 6 - QUANTITY SOLD PER STUDENT
-Ava Johnson: 42 items
-Noah Miller: 31 items
-Mia Wilson: 27 items
+TASK 6 - SALES PER STUDENT
+Ava Johnson : 30
+Noah Smith : 28
+Olivia Miller : 29
+Ethan Brown : 26
+Isabella Davis : 20
+Lucas Wilson : 22
+Mia Taylor : 26
+Mason Anderson : 24
+Charlotte Thomas : 30
+Amelia Moore : 24
+Harper Jackson : 31
+James Martin : 16
 
-TASK 7 - QUANTITY SOLD PER PRODUCT
-Chocolate Bar: 75 items
-Gummy Bears: 64 items
-Lollipop: 82 items
-Caramel Squares: 66 items
+TASK 7 - SALES PER PRODUCT
+Chocolate Bar : 33
+Gummy Bears : 32
+Sour Worms : 30
+Lollipops : 34
+Caramel Chews : 30
+Peanut Butter Cups : 29
+Jelly Beans : 28
+Licorice Twists : 28
+Toffee Bites : 29
+Candy Corn : 31
+Sour Bears : 1
+Lemon Drops : 1
 
 TASK 8 - MOST POPULAR PRODUCT
-Most popular product: Lollipop
-Quantity sold: 82
+Lollipops 34
 
 TASK 9 - PRODUCT LOOKUP
-Chocolate Bar -> 1.5
-Gummy Bears -> 2.0
-Lollipop -> 0.75
-Caramel Squares -> 1.25
+{'Chocolate Bar': 1.5, 'Gummy Bears': 1.25, 'Sour Worms': 1.25, 'Lollipops': 0.75, 'Caramel Chews': 1.0, 'Peanut Butter Cups': 1.5, 'Jelly Beans': 1.25, 'Sugar Blasts': 1.5, 'Licorice Twists': 1.0, 'Toffee Bites': 1.75, 'Candy Corn': 1.25}
 
 TASK 10 - TOTAL REVENUE
-Total revenue: $412.25
+Error: missing product Sour Bears
+Error: missing product Lemon Drops
+Total revenue: 378.5
 
 TASK 11 - REVENUE PER PRODUCT
-Chocolate Bar: $112.50
-Gummy Bears: $128.00
-Lollipop: $61.50
-Caramel Squares: $110.25
+Error: missing product Sour Bears
+Error: missing product Lemon Drops
+Chocolate Bar 49.5
+Gummy Bears 40.0
+Sour Worms 37.5
+Lollipops 25.5
+Caramel Chews 30.0
+Peanut Butter Cups 43.5
+Jelly Beans 35.0
+Licorice Twists 28.0
+Toffee Bites 50.75
+Candy Corn 38.75
 
 TASK 12 - REVENUE PER STUDENT
-Ava Johnson: $71.25
-Noah Miller: $56.50
-Mia Wilson: $48.75
+Error: missing product Sour Bears
+Error: missing product Lemon Drops
+Ava Johnson 38.75
+Noah Smith 30.25
+Olivia Miller 39.0
+Ethan Brown 30.75
+Isabella Davis 26.5
+Lucas Wilson 25.25
+Mia Taylor 36.0
+Mason Anderson 28.5
+Charlotte Thomas 42.0
+Amelia Moore 26.75
+Harper Jackson 34.25
+James Martin 20.5
 
-TASK 13 - TOP STUDENT SELLER
-Top student seller: Ava Johnson
-Revenue: $71.25
+TASK 13 - TOP STUDENT
+Charlotte Thomas 42.0
 
-TASK 14 - HIGHEST SINGLE SALE
-Highest single sale: 27 | Ava Johnson | Olivia Davis | Gummy Bears | 8
-Value: $16.00
+TASK 14 - HIGHEST SALE
+Error: missing product Sour Bears
+Error: missing product Lemon Drops
+Charlotte Thomas Chocolate Bar 6 9.0
 
-TASK 15 - AVERAGE SALE VALUE
-Average sale value: $4.12
+TASK 15 - AVERAGE SALE
+3.785
 
 TASK 16 - UNIQUE CUSTOMERS
-Unique customers: 83
+Unique customers: 98
 
 TASK 17 - TOP CUSTOMER
-Top customer: Olivia Davis
-Items purchased: 12
+Charlotte Nelson 7
 
-TASK 18 - STUDENT LEADERBOARD
-1. Ava Johnson - $71.25
-2. Noah Miller - $56.50
-3. Mia Wilson - $48.75
+TASK 18 - LEADERBOARD
+Charlotte Thomas 42.0
+Olivia Miller 39.0
+Ava Johnson 38.75
+Mia Taylor 36.0
+Harper Jackson 34.25
+Ethan Brown 30.75
+Noah Smith 30.25
+Mason Anderson 28.5
+Amelia Moore 26.75
+Isabella Davis 26.5
+Lucas Wilson 25.25
+James Martin 20.5
 
-TASK 19 - DATA VALIDATION
-No issues found.
+TASK 19 - VALIDATION
+Error: Missing Product: Sour Bears
+Error: Missing Product: Lemon Drops
 
-TASK 20 - WRITE SUMMARY FILE
-student_totals.csv written successfully.
+TASK 20 - WRITE FILE
+File written.
+>>> 
 ```
 
 ---
