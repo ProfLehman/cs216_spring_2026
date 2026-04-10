@@ -1,17 +1,15 @@
 
-## Candy Fundraiser Sales Analysis
+# Candy Fundraiser Sales Analysis
 
-This sample solution uses:
+## Full Sample Solution Code  -  [`candy_sales_full_solutuion.py`](./candy_sales_full_solution.py)  
 
-* `readline()`
-* `strip()`
-* `split(",")`
+Note: This sample solution uses: `readline()`, `strip()`, `split(",")`, it does **not** use the `csv` module.
 
-It does **not** use the `csv` module.
+---
 
 ## Assumed File Formats
 
-### `products.csv`
+### [`products.csv`](./products.csv)
 
 ```text
 product_name,price
@@ -20,7 +18,7 @@ Gummy Bears,2.00
 Lollipop,0.75
 ```
 
-### `sales.csv`
+### [`sales.csv`](./sales.csv)
 
 ```text
 sale_id,student_name,customer_name,phone,product_name,qty
@@ -31,11 +29,6 @@ sale_id,student_name,customer_name,phone,product_name,qty
 
 ---
 
-## Full Sample Solution Code  
-
-See [`candy_sales_full_solutuion.py`](.candy_sales_full_solution.py)
-
----
 
 ## Sample Output
 
