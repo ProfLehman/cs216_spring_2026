@@ -45,6 +45,25 @@ classDiagram
     }
 ```
 ---
+##
+
+Use following file format for `Measurement.py`
+
+``` python
+class Measurement:
+    # *** add code here
+
+
+
+    #end class
+    
+    
+if __name__ == "__main__":
+
+    # *** add code here ***
+```
+
+---
 
 ## Step 1 – Add a Constructor
 
