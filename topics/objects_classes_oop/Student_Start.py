@@ -3,7 +3,7 @@
 # Spring 2025
 # Prof. Lehman
 #
-# in-class exercise (without)
+# in-class exercise (without answers)
 # demonstrates Student object
 #
 # 
