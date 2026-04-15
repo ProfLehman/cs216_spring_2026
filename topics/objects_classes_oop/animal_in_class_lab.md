@@ -234,3 +234,13 @@ Extend the class to include:
 * update the `__str__` method to display age
 
 ---
+
+## Sample Solution 
+
+[`Animal.py`](./Animal.py)
+
+[`Animal_test.py` uses the Animal class](./Animal_test.py)
+
+
+-- end --
+
