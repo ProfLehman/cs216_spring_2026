@@ -15,7 +15,7 @@ In this lab, you will create an `Animal` class with attributes for animal type, 
 
 * Work with your partner to implement the `Animal` class.
 
-## UMOL Diagram
+## UML Diagram for Animal Class
 
 ```mermaid
 classDiagram
