@@ -1,5 +1,7 @@
 # In-Class Lab: Creating and Using an `Animal` Class
 
+![Animal Class image](./animals.png)
+
 ## Objective
 
 In this lab, you will create an `Animal` class with attributes for animal type, name, and sound. The class will include:
@@ -12,6 +14,26 @@ In this lab, you will create an `Animal` class with attributes for animal type, 
 ## Instructions
 
 * Work with your partner to implement the `Animal` class.
+
+## UML Diagram for Animal Class
+
+```mermaid
+classDiagram
+    class Animal {
+        - string animal_type
+        - string name
+        - string sound
+        + Animal(string animal_type, string name, string sound)
+        + string get_animal_type()
+        + string get_name()
+        + string get_sound()
+        + void set_animal_type(string animal_type)
+        + void set_name(string name)
+        + void set_sound(string sound)
+        + void speak()
+        + string __str__()
+    }
+```
 
 ---
 
@@ -212,3 +234,13 @@ Extend the class to include:
 * update the `__str__` method to display age
 
 ---
+
+## Sample Solution 
+
+[`Animal.py`](./Animal.py)
+
+[`Animal_test.py` uses the Animal class](./Animal_test.py)
+
+
+-- end --
+
