@@ -5,11 +5,11 @@ sale_id,student_name,customer_name,customer_phone,product,qty
 4,Ethan Brown,Sophia Green,260-555-0104,Lollipops,4
 5,Isabella Davis,James Young,260-555-0105,Caramel Chews,2
 6,Lucas Wilson,Mia Baker,260-555-0106,Peanut Butter Cups,3
-7,Mia Taylor,Benjamin Adams,260-555-0107,Jelly Beans,1
+7,Mia Taylor,Mia Baker,260-555-0106,Jelly Beans,1
 8,Mason Anderson,Charlotte Nelson,260-555-0108,Licorice Twists,2
 9,Charlotte Thomas,Elijah Hill,260-555-0109,Toffee Bites,4
 10,Amelia Moore,Amelia Scott,260-555-0110,Candy Corn,3
-11,James Martin,Logan Perez,260-555-0111,Chocolate Bar,2
+11,Isabella Davis,Logan Perez,260-555-0111,Chocolate Bar,2
 12,Harper Jackson,Evelyn Roberts,260-555-0112,Gummy Bears,6
 13,Ava Johnson,Alexander Turner,260-555-0113,Sour Worms,3
 14,Noah Smith,Abigail Phillips,260-555-0114,Lollipops,5
@@ -18,7 +18,7 @@ sale_id,student_name,customer_name,customer_phone,product,qty
 17,Isabella Davis,Daniel Evans,260-555-0117,Jelly Beans,3
 18,Lucas Wilson,Emily Edwards,260-555-0118,Licorice Twists,2
 19,Mia Taylor,Michael Collins,260-555-0119,Toffee Bites,1
-20,Mason Anderson,Avery Stewart,260-555-0120,Candy Corn,5
+20,Mason Anderson,Charlotte Nelson,260-555-0108,Candy Corn,5
 21,Charlotte Thomas,Matthew Sanchez,260-555-0121,Chocolate Bar,4
 22,Amelia Moore,Ella Morris,260-555-0122,Gummy Bears,2
 23,James Martin,Joseph Rogers,260-555-0123,Sour Worms,3
