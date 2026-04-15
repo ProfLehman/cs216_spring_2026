@@ -239,7 +239,7 @@ Extend the class to include:
 
 [`Animal.py`](./Animal.py)
 
-[`Animal_test.py` uses the Animal class](./Animal_test.py)
+[`Animal_Test.py` uses the Animal class](./Animal_Test.py)
 
 
 -- end --
