@@ -15,6 +15,7 @@ def do_something():
     chapel_helper.set_chapels( number )
     
     answer = chapel_helper.get_remaining()
+    
     msg_label.config(text=answer)
     
     

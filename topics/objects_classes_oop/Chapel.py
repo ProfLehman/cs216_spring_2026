@@ -29,18 +29,35 @@ class Chapel:
         
         if remaining <= 0:
             return "All chapel requirements completed!"
+        elif remaining <= 2:
+            return f"Very close!!! {remaining} to go ..."
         else:
             return f"You need {remaining} more chapels."
-        
+     
+    def __str__(self):
+        return f"Completed = {self.completed}"
+     
+     
 # -----------------------------------------------------
 # Local test (runs only if file is executed directly)
 # -----------------------------------------------------
 if __name__ == "__main__":
     
-    print("Chapel Class Test")
-    print("------------------")
+    #print("Chapel Class Test")
+    #print("------------------")
     
     chapel_helper = Chapel()
+    
+    print( chapel_helper )
+    
+    chapel_helper.set_chapels( -15 )
+    print( chapel_helper )
+    
+    chapel_helper.set_chapels( 30 )
+    print( chapel_helper )
+    print( chapel_helper.get_remaining() )
+    
+    
     
     # test loop
     number = int(input("Enter number of chapels attended (-1 to quit): "))
