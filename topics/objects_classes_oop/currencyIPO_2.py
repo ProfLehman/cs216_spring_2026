@@ -33,10 +33,12 @@ def convert_currency():
     except ValueError:
         messagebox.showerror("Invalid Input", "Please enter a valid number.")
 
-# clear input aout output
+# clear input and output
 def clear_data():
     amount_entry.delete(0, tk.END)
     result_label.config(text="Result will appear here.")
+
+# main
 
 # Fixed conversion rates
 usd_to_cad_rate = 1.42
@@ -48,12 +50,12 @@ root.title("USD <-> CAD Currency Converter")
 root.geometry("400x200")
 
 # Input field
-amount_label = tk.Label(root, text="Amount:")
-amount_label.grid(row=0, column=0, padx=10, pady=10, sticky='e')
+amount_label = tk.Label(root, text="AMOUNT: ")
+amount_label.grid(row=0, column=1, padx=10, pady=10, sticky='e')
 
 amount_entry = tk.Entry(root, width=30)
 amount_entry.insert(0,"100")
-amount_entry.grid(row=0, column=1, padx=10, pady=10)
+amount_entry.grid(row=0, column=0, padx=10, pady=10)
 
 # Radio buttons for conversion direction
 conversion_direction = tk.StringVar(value="USD to CAD")
@@ -76,6 +78,7 @@ menu_bar = tk.Menu(root)
 
 # File Menu
 file_menu = tk.Menu(menu_bar, tearoff=0)
+file_menu.add_command(label="New", command=clear_data)
 file_menu.add_command(label="Clear", command=clear_data)
 file_menu.add_separator()
 file_menu.add_command(label="Exit", command=root.destroy)
